@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#div1{
+    text-align: center;
+    color: black;
+    opacity: 100%;
+    font-size:100px;
+    font-family:'Times New Roman';
+    outline: 2px solid white;
+}
+
+.div2{
+    text-align: center;
+    color: black;
+    opacity: 100%;
+    font-size:100px;
+    font-family:'Times New Roman';
+}
+
+#div1::first-letter{
+    color: red;
+}
+
+#div1::before{
+    content: "Bruce wane";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    
+    font-size: 10px;
+    opacity: 75%;
+}
+
+#div1::after{
+    content: "" ;
+    background-image: url('../assets/batman.png');
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    color:red;
+}
+
+#div1::first-line{
+     font-size: 50px;
+}
+div, span {
+    color: white;
+    text-align: center;
+}
+
+#div1::selection, .div2::selection{
+    color: red;
+}
+
+#div3 {
+    color: black;
+    font-size: 200px;
+}
+
+#div3::selection{
+    color: rgb(247, 243, 243);
+}
