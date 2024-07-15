@@ -1,0 +1,66 @@
+/* a:link{
+    color: rgb(47, 132, 207);
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: brown;
+}
+
+#p1{
+    color: red;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px yellow;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: line-through overline underline;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+} */
+
+/* div{
+    border: 2px solid black;
+    width: 500px;
+    height: auto;
+    text-wrap: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+} */
+
+div{
+    border: 2px solid black;
+    /* width: 500px; */
+    height: 200px;
+    /* max-width: 300px; */
+    max-height: none;
+    min-height: 100px;
+    min-width: 100px;
+    background-image: url('../assets/batman.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+/* div{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 100px;
+    min-width: 100px;
+} */
